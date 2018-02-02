@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dilan Lesson</string>
+    <string name="makan_malam_text">Makan Malam</string>
+    <string name="text_milea">dengan bebeb Milea</string>
+    <string name="menu">Nasi Uduk</string>
+    <string name="porsi">2</string>
+    <string name="placeOne">Eatbus</string>
+    <string name="placeTwo">Abnormal</string>
+    <string name="menu_makanan_edittext">Menu Makanan</string>
+    <string name="porsi_makanan_edittext">Porsi Makanan</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/actitivy_padding"
+    tools:context="com.studycase.vanard.vianrasyiddiyatma_1202154186_modul1.placeActivity">
+
+    <TextView
+        android:id="@+id/main_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/makan_malam_text" />
+
+    <TextView
+        android:id="@+id/sub_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_textview"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text=""
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/menu_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_textview"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Menu"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/first_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_textview"
+        android:text=""
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/porsi_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_textview"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Porsi"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/second_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/porsi_textview"
+        android:text=""
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/harga_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_textview"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Harga"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/duit_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/harga_textview"
+        android:text=""
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
