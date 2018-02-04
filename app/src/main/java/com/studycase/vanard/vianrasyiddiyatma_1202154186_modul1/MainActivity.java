@@ -21,14 +21,13 @@ public class MainActivity extends AppCompatActivity {
         secondEditText = findViewById(R.id.second_edittext);
         eatbusBtn = findViewById(R.id.eatbus_btn);
         abnormalBtn = findViewById(R.id.abnormal_btn);
-
-        menu = firstEditText.getText().toString();
-        porsi = secondEditText.getText().toString();
     }
 
-    public void placeOne(View view) {
+    public void eatbusBtn(View view) {
         Intent intent = new Intent(this, placeActivity.class);
-        String tempat = eatbusBtn.getText().toString();
+        menu = firstEditText.getText().toString();
+        porsi = secondEditText.getText().toString();
+        String tempat = abnormalBtn.getText().toString();
 
         intent.putExtra("menu", menu);
         intent.putExtra("porsi", porsi);
@@ -36,9 +35,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void placeTwo(View view) {
+    public void abnormalBtn(View view) {
         Intent intent = new Intent(this, placeActivity.class);
-        String tempat = abnormalBtn.getText().toString();
+        menu = firstEditText.getText().toString();
+        porsi = secondEditText.getText().toString();
+        String tempat = eatbusBtn.getText().toString();
 
         intent.putExtra("menu", menu);
         intent.putExtra("porsi", porsi);

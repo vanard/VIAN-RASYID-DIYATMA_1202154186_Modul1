@@ -11,8 +11,7 @@ import static java.lang.Integer.parseInt;
 public class placeActivity extends AppCompatActivity {
     String Tmenu, Tporsi, Ttempat;
     TextView menuTextView, porsiTextView, hargaTextView, tempatTextView;
-    int harga, total;
-    int osas = 65500;
+    int harga, total; int osas = 65500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +28,9 @@ public class placeActivity extends AppCompatActivity {
         hargaTextView = findViewById(R.id.duit_textview);
         tempatTextView = findViewById(R.id.sub_textview);
 
-        tempatTextView.setText(Ttempat);
         menuTextView.setText(Tmenu);
         porsiTextView.setText(Tporsi);
+        tempatTextView.setText(Ttempat);
 
         switch (Ttempat) {
             case "Eatbus":
